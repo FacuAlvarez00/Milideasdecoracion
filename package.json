@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/levizeraaa/MilIdeasDecoraci-n.git"
+    "url": "git+https://github.com/levizeraaa/Milideasdecoracion.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/levizeraaa/MilIdeasDecoraci-n/issues"
+    "url": "https://github.com/levizeraaa/Milideasdecoracion/issues"
   },
-  "homepage": "https://github.com/levizeraaa/MilIdeasDecoraci-n#readme",
+  "homepage": "https://github.com/levizeraaa/Milideasdecoracion#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"

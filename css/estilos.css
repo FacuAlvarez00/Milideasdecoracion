@@ -63,7 +63,7 @@ nav {
 
 .decorandoIndex {
   font-weight: bold;
-  color: black;
+  color: #fbede0;
   text-align: center; }
 
 .videoIndex {
@@ -268,8 +268,7 @@ fieldset .letras input {
   display: grid;
   grid-template-columns: 20% 20% 20% 20%;
   grid-template-rows: 300px 300px;
-  grid-template-areas: "itemm0 itemm0 itemm1 itemm2"
- "itemm0 itemm0 itemm3 itemm4";
+  grid-template-areas: "itemm0 itemm0 itemm1 itemm2" "itemm0 itemm0 itemm3 itemm4";
   gap: 60px;
   margin-top: 100px;
   padding-left: 200px; }
@@ -277,6 +276,26 @@ fieldset .letras input {
 .itemm0 {
   grid-area: itemm0;
   padding: 80px; }
+
+.souvenir1 {
+  background-image: url(../assets/3mm/1.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.souvenir2 {
+  background-image: url(../assets/3mm/2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.souvenir3 {
+  background-image: url(../assets/3mm/3.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.souvenir4 {
+  background-image: url(../assets/3mm/4.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .titulo_3mm {
   margin-top: 120px;
@@ -286,8 +305,9 @@ fieldset .letras input {
   position: relative;
   top: 170px;
   border: none;
-  background: #f1d6bd;
-  color: #dcc2e4;
+  border-radius: 10px;
+  background: #57393d;
+  color: #fff;
   width: 200px;
   height: 30px;
   font-size: 15px;
@@ -297,7 +317,7 @@ fieldset .letras input {
 
 .agregar_carrito:hover {
   background: #57393d;
-  color: #fff; }
+  color: #eee2e2; }
 
 /* 5MM */
 .first_row {
@@ -322,8 +342,7 @@ fieldset .letras input {
 
 .grid_5mm {
   display: grid;
-  grid-template-areas: "img1 img2"
- "img1 img3";
+  grid-template-areas: "img1 img2" "img1 img3";
   gap: 20px;
   margin: 100px 0; }
 
@@ -412,14 +431,20 @@ footer .copyright {
   .main_contacto {
     display: flex;
     flex-direction: column;
-    padding-left: 5px;
-    margin: 300px 0px; }
+    margin: 300px 0px;
+    padding: 0 6px; }
   .formulario_contacto {
-    width: 400px;
+    width: 100%;
     padding: 50px; }
   .textoo {
-    width: 400px;
+    width: 100%;
     padding: 50px; }
+  .h3_contacto {
+    text-align: center; }
+  .text--t2 {
+    text-align: center; }
+  .text--t3 {
+    text-align: center; }
   .grid_3mm {
     display: flex;
     flex-direction: column;
@@ -430,8 +455,6 @@ footer .copyright {
     justify-content: center; }
   .itemm0 {
     padding: 30px;
-    color: goldenrod;
-    font-weight: bold;
     font-size: 14px; }
   .item-grid {
     background-color: #03afff;
@@ -442,13 +465,12 @@ footer .copyright {
     margin: 20px 0; }
   .agregar_carrito {
     position: relative;
-    top: 110px;
+    top: 117px;
     border: none;
-    background-color: #b5d0d5;
-    color: #17161Dff;
-    width: 150px;
+    width: 160px;
     height: 25px;
-    font-size: 15px; }
+    font-size: 15px;
+    margin: 10px 0; }
   .grid_5mm {
     display: flex;
     flex-direction: column; }
@@ -490,8 +512,9 @@ footer .copyright {
   .mercadoplatinum {
     width: 220px; }
   iframe {
-    width: 450px;
-    height: 250px; } }
+    width: 100%;
+    height: 300px;
+    padding: 0 5px; } }
 
 @media (min-width: 480px) {
   .foto1 {
