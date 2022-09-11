@@ -2,74 +2,48 @@
 
 $colorDorado: #ffc107;
 $colorBlanco: #fff;
+$colorCrema: #fbede0;
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 html {
     font-size: 62.5%;
 }
-
 body {
     background-size: cover;
-    background-color: #fbede0;
+    background-color: $colorCrema;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
-
-
-
-/* navbar */
 nav {
-    background-color: #fbede0;
+    background-color: $colorCrema;
     border-bottom: 1px solid #59393E;
     border-top: 1px solid #59393E;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
-
 .nav-item {
     margin: 0 70px;
 }
-
-
 .button_5mm_container {
     @extend .nav-item;
 }
-
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light {
-    color: #59393E;
-}
-
 .navbar .navbar-nav .nav-link:hover {
     color: $colorDorado;
 }
-
-.despegable_navbar:hover {
-    color: #ffc107;
-}
-
 .iconoBarra {
     width: 80px;
     height: 80px;
     position: relative;
     left: 70px;
 }
-
-
-
-
-/* index */
-
 .index {
     margin: 50px 0;
     justify-content: space-between;
 }
-
 .imgindex1{
     width: 1000px;
     height: 500px;
@@ -86,7 +60,6 @@ nav {
     font-weight: bolder;
     color: #59393E;
 }
-
 iframe{
     display: block;
     margin: auto;
@@ -94,28 +67,16 @@ iframe{
 .container{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-
-/* Pagina Contacto */
-
-$colores_contacto:(
-    negro: #17161Dff,
-    celeste: #81b5be,
-    blanco: #fff,
-);
-
-
 @mixin textoo-size($h,$w) {
     height: $h;
     width: $w;
 }
-
 .main_contacto {
     display: flex;
     height: 600px;
     justify-content: center;
     margin: 100px 0px;
 }
-
 .textoo {
     @include textoo-size(600px,600px);
     display: flex;
@@ -127,29 +88,23 @@ $colores_contacto:(
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
-
 .h3_contact {
     padding-bottom: 20px;
 }
-
 .text--t1 {
     font-size: 30px;
 }
-
 .text--t2 {
     padding: 10px 0;
     font-size: 17px;
 }
-
 .text--t3 {
     font-size: 17px;
     list-style: none;
 }
-
 .textoo h3 {
     font-style: bolder;
 }
-
 .formulario_contacto {
     border: none;
     width: 600px;
@@ -159,8 +114,6 @@ $colores_contacto:(
     align-items: center;
     border: 2px solid black;
 }
-
-
 fieldset .letras input {
     width: 300px;
     height: 50px;
@@ -169,11 +122,9 @@ fieldset .letras input {
     display: flex;
     text-align: start;
 }
-
 .letras .item4 {
     height: 100px;
 }
-
 .opcional_titulo {
     color: black;
     font-size: 15px
@@ -182,7 +133,6 @@ fieldset .letras input {
     color: black;
     font-size: 17px;
 }
-
 .boton_contacto {
     border: 1px solid black;
     color: black;
@@ -198,17 +148,8 @@ fieldset .letras input {
 }
 ::placeholder{
     font-size: 18px;
-
 }
 
-/* Pagina Contacto */
-/* Nosotros */
-.foto-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
 .grid-nosotros {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -217,14 +158,6 @@ fieldset .letras input {
     padding-top: 30px;
     grid-auto-flow: dense;
 }
-
-
-/* .foto3 {
-    background-image: url(../assets/nosotros/15fd8fa6aa4685aa56776e09dad9adb1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
 .parrafonosotros {
     text-decoration: solid;
     color: black;
@@ -246,8 +179,6 @@ fieldset .letras input {
     justify-content: center;
     flex-direction: column;
 }
-
-
 .tituloNosotros {
     text-align: center;
     font-size: 50px;
@@ -255,40 +186,48 @@ fieldset .letras input {
     margin-bottom: 30px;
     color: #59393E;
 }
-
 .itemsNosotros {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px;
 }
-
 .itemsNosotros li {
     text-decoration: none;
     list-style: none;
     margin: 50px;
     text-align: center;
 }
-
+.xdd{
+    width: 100%;
+}
 .textt {
     background: radial-gradient(circle, rgba(245, 220, 200, 1) 0%, rgba(240, 220, 202, 1) 30%, rgba(251, 237, 224, 1) 61%);
     height: 200px;
     width: 400px;
     font-size: 30px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px #59393E;
 }
-
 .mercadoplatinum {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-/* Nosotros */
-
-/* 3MM */
-
 .tresmm{
     padding: 0 200px;
+    margin-top: 80px;
+}
+.barra_divisora{
+    color: white;
+    text-align: center;
+    background-color: #59393E;
+    margin: 50px 0;
+    font-size: 30px;
+    font-weight: bold;
 }
 .item-grid {
     display: flex;
@@ -297,22 +236,6 @@ fieldset .letras input {
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
     border: solid 1px white;
-}
-
-.grid_3mm {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 300px 300px;
-    grid-template-areas: "itemm0 itemm0 itemm1 itemm2"
-        "itemm0 itemm0 itemm3 itemm4";
-    gap: 60px;
-    margin-top: 100px;
-    padding-left: 200px;
-}
-.main_3mm{
-    margin-top: 100px;
-    justify-content: space-between;
-    
 }
 .texto_3mm{
     display: flex;
@@ -353,21 +276,21 @@ fieldset .letras input {
 }
 .velador_wrapper{
     position: relative;
-    width: 1700px;
+    width: 1850px;
+    right: 80px;
 }
 .velador_wrapper img{
     width: 100%;
     height: 100%;
 }
-.ez2{
+.velador_hover{
     position: absolute;
     left: 0;
     top: 0;
     opacity: 0;
     transition: all 0.4s ease;
 }
-
-.ez2:hover{
+.velador_hover:hover{
     opacity: 1;
 }
 .parrafo_3mm{
@@ -377,38 +300,11 @@ fieldset .letras input {
 .lista_3mm{
     padding-left: 40px;
     margin: 30px 0;
+    color: #999090;
 }
-
-
 .titulo_3mm {
     margin-top: 120px;
     text-align: center;
-}
-
-
-.itemm1_text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: solid 4px #59393E;
-}
-.itemm2_text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: solid 4px #59393E;
-    }
-.itemm3_text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: solid 4px #59393E;
-}
-.barra_divisora{
-    color: white;
-    text-align: center;
-    background-color: #59393E;
-    margin: 50px 0;
 }
 
 /* 5MM */
@@ -608,7 +504,7 @@ footer .copyright {
         padding: 0 10px;
         align-items: center;
     }
-    .ss{
+    .contenedor_parrafo_3mm{
         padding: 0 10px;
         
     }
@@ -635,7 +531,7 @@ footer .copyright {
         top: 410px;
     }
     .velador_wrapper{
-        width: 100%;
+        width: 522px;
     }
     .mm5_top{
         flex-direction: column;
@@ -699,31 +595,23 @@ footer .copyright {
     .text--t3{
         text-align: center;
     }
-
     .grid-nosotros{
         display: grid;
         grid-template-columns: 1fr;
-        grid-auto-rows: 300px;
+        grid-auto-rows: 250px;
         gap: 3px;
-        padding: 0 10px;
-        margin-top: 100px;
+        margin-top: 30px;
     }
     .display{
         display: none;
     }
-
     .img_nosotros{
         width: 100%;
-
     }
-
     .foto-grid{
         display: flex;
         align-items:baseline;
     }
-
-
-
     .tituloNosotros {
         display: flex;
         flex-direction: column;
@@ -731,10 +619,11 @@ footer .copyright {
     }
     .parrafonosotros {
         font-size: 16px;
+        width: 100%;
     }
     .parrafonosotros2{
         margin: 0px;
-        padding: 30px;
+        text-align: center;
     }
     .mercadolider_contenedor{
         flex-direction: column;
@@ -744,9 +633,6 @@ footer .copyright {
         font-size: 15px;
         margin: 0 10px;
     }
-
-
-
     .grid_3mm {
         display: flex;
         flex-direction: column;
@@ -756,12 +642,6 @@ footer .copyright {
         align-items: center;
         justify-content: center;
     }
-
-    .itemm0 {
-        padding: 30px;
-        font-size: 14px;
-    }
-
     .item-grid {
         background-color: #03afff;
         border-radius: 4px;
@@ -770,7 +650,6 @@ footer .copyright {
         height: 200px;
         margin: 20px 0;
     }
-
     .agregar_carrito {
         position: relative;
         top: 117px;
@@ -783,66 +662,50 @@ footer .copyright {
     .img1 {
         height: 300px;
     }
-
     .img2 {
         height: 150px;
     }
-
     .img3 {
         height: 200px;
     }
-
     .dropdown-menu {
         font-size: 12px;
     }
-
     .despegable_navbar {
         font-size: 15px;
     }
-
     .nav-item {
         margin: 0 0px;
     }
-
     .button_5mm_container {
         margin: 0 0px;
     }
-
-    .itemsNosotros {
-        display: flex;
-        flex-direction: column;
-    }
-
+    
     .tituloNosotros {
         text-align: center;
         font-size: 30px;
         font-weight: 100;
         margin-bottom: 30px;
     }
-
     .itemsNosotros {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        width: 100%;
     }
-
     .itemsNosotros li {
         text-decoration: none;
         list-style: none;
         margin: 50px;
         text-align: center;
     }
-
     .textt {
-        height: 100px;
+        height: 130px;
         width: 300px;
         font-size: 22px;
     }
-
     .mercadoplatinum {
         width: 220px;
     }
-
     iframe {
         width: 100%;
         height: 300px;
@@ -864,10 +727,6 @@ footer .copyright {
         grid-column: span 2;
     }
 }
-
-
-
-
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
     .navbar-nav{
@@ -896,8 +755,6 @@ footer .copyright {
     iframe{
         width: 950px;
     }
-
-
     .tresmm{
         padding: 0 10px;
     }
@@ -920,8 +777,6 @@ footer .copyright {
     .ancor_3mm{
         font-size: 18px;
     }
-
-
     .mm5_top{
         margin: 50px 0;
     }
@@ -936,18 +791,6 @@ footer .copyright {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 350px 350px 350px;
     }
-
-
-
-
-
-
-
-
-
-
-
-    /*nosotros*/
     .itemsNosotros{
         padding: 0px;
     }
@@ -966,8 +809,6 @@ footer .copyright {
         width: 320px;
         height: 300px;
     }
-    /*nosotros*/
-
     .main_contacto {
         display: flex;
         flex-direction: row;

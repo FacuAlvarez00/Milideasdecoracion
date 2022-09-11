@@ -13,7 +13,6 @@ body {
   font-size: 20px;
   font-family: 'Poppins', sans-serif; }
 
-/* navbar */
 nav {
   background-color: #fbede0;
   border-bottom: 1px solid #59393E;
@@ -24,14 +23,7 @@ nav {
 .nav-item, .button_5mm_container {
   margin: 0 70px; }
 
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light {
-  color: #59393E; }
-
 .navbar .navbar-nav .nav-link:hover {
-  color: #ffc107; }
-
-.despegable_navbar:hover {
   color: #ffc107; }
 
 .iconoBarra {
@@ -40,7 +32,6 @@ nav {
   position: relative;
   left: 70px; }
 
-/* index */
 .index {
   margin: 50px 0;
   justify-content: space-between; }
@@ -68,7 +59,6 @@ iframe {
 .container {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; }
 
-/* Pagina Contacto */
 .main_contacto {
   display: flex;
   height: 600px;
@@ -148,14 +138,6 @@ fieldset .letras input {
 ::placeholder {
   font-size: 18px; }
 
-/* Pagina Contacto */
-/* Nosotros */
-.foto-grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%; }
-
 .grid-nosotros {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -164,12 +146,6 @@ fieldset .letras input {
   padding-top: 30px;
   grid-auto-flow: dense; }
 
-/* .foto3 {
-    background-image: url(../assets/nosotros/15fd8fa6aa4685aa56776e09dad9adb1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
 .parrafonosotros {
   text-decoration: solid;
   color: black;
@@ -201,7 +177,8 @@ fieldset .letras input {
 .itemsNosotros {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding: 0px; }
 
 .itemsNosotros li {
   text-decoration: none;
@@ -209,22 +186,36 @@ fieldset .letras input {
   margin: 50px;
   text-align: center; }
 
+.xdd {
+  width: 100%; }
+
 .textt {
   background: radial-gradient(circle, #f5dcc8 0%, #f0dcca 30%, #fbede0 61%);
   height: 200px;
   width: 400px;
   font-size: 30px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 2px #59393E; }
 
 .mercadoplatinum {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* Nosotros */
-/* 3MM */
 .tresmm {
-  padding: 0 200px; }
+  padding: 0 200px;
+  margin-top: 80px; }
+
+.barra_divisora {
+  color: white;
+  text-align: center;
+  background-color: #59393E;
+  margin: 50px 0;
+  font-size: 30px;
+  font-weight: bold; }
 
 .item-grid {
   display: flex;
@@ -233,19 +224,6 @@ fieldset .letras input {
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
   border: solid 1px white; }
-
-.grid_3mm {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  grid-template-rows: 300px 300px;
-  grid-template-areas: "itemm0 itemm0 itemm1 itemm2" "itemm0 itemm0 itemm3 itemm4";
-  gap: 60px;
-  margin-top: 100px;
-  padding-left: 200px; }
-
-.main_3mm {
-  margin-top: 100px;
-  justify-content: space-between; }
 
 .texto_3mm {
   display: flex;
@@ -286,20 +264,21 @@ fieldset .letras input {
 
 .velador_wrapper {
   position: relative;
-  width: 1700px; }
+  width: 1850px;
+  right: 80px; }
 
 .velador_wrapper img {
   width: 100%;
   height: 100%; }
 
-.ez2 {
+.velador_hover {
   position: absolute;
   left: 0;
   top: 0;
   opacity: 0;
   transition: all 0.4s ease; }
 
-.ez2:hover {
+.velador_hover:hover {
   opacity: 1; }
 
 .parrafo_3mm {
@@ -308,35 +287,12 @@ fieldset .letras input {
 
 .lista_3mm {
   padding-left: 40px;
-  margin: 30px 0; }
+  margin: 30px 0;
+  color: #999090; }
 
 .titulo_3mm {
   margin-top: 120px;
   text-align: center; }
-
-.itemm1_text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: solid 4px #59393E; }
-
-.itemm2_text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: solid 4px #59393E; }
-
-.itemm3_text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: solid 4px #59393E; }
-
-.barra_divisora {
-  color: white;
-  text-align: center;
-  background-color: #59393E;
-  margin: 50px 0; }
 
 /* 5MM */
 .mm5_top {
@@ -509,7 +465,7 @@ footer .copyright {
     display: flex;
     padding: 0 10px;
     align-items: center; }
-  .ss {
+  .contenedor_parrafo_3mm {
     padding: 0 10px; }
   .parrafo1_3mm {
     padding: 0; }
@@ -528,7 +484,7 @@ footer .copyright {
     position: relative;
     top: 410px; }
   .velador_wrapper {
-    width: 100%; }
+    width: 522px; }
   .mm5_top {
     flex-direction: column;
     padding: 0;
@@ -579,10 +535,9 @@ footer .copyright {
   .grid-nosotros {
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 300px;
+    grid-auto-rows: 250px;
     gap: 3px;
-    padding: 0 10px;
-    margin-top: 100px; }
+    margin-top: 30px; }
   .display {
     display: none; }
   .img_nosotros {
@@ -595,10 +550,11 @@ footer .copyright {
     flex-direction: column;
     font-size: 25px; }
   .parrafonosotros {
-    font-size: 16px; }
+    font-size: 16px;
+    width: 100%; }
   .parrafonosotros2 {
     margin: 0px;
-    padding: 30px; }
+    text-align: center; }
   .mercadolider_contenedor {
     flex-direction: column;
     padding: 0px; }
@@ -613,9 +569,6 @@ footer .copyright {
     padding-left: 0px;
     align-items: center;
     justify-content: center; }
-  .itemm0 {
-    padding: 30px;
-    font-size: 14px; }
   .item-grid {
     background-color: #03afff;
     border-radius: 4px;
@@ -645,9 +598,6 @@ footer .copyright {
     margin: 0 0px; }
   .button_5mm_container {
     margin: 0 0px; }
-  .itemsNosotros {
-    display: flex;
-    flex-direction: column; }
   .tituloNosotros {
     text-align: center;
     font-size: 30px;
@@ -655,15 +605,15 @@ footer .copyright {
     margin-bottom: 30px; }
   .itemsNosotros {
     display: flex;
-    justify-content: center;
-    align-items: center; }
+    flex-direction: column;
+    width: 100%; }
   .itemsNosotros li {
     text-decoration: none;
     list-style: none;
     margin: 50px;
     text-align: center; }
   .textt {
-    height: 100px;
+    height: 130px;
     width: 300px;
     font-size: 22px; }
   .mercadoplatinum {
@@ -727,7 +677,6 @@ footer .copyright {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 350px 350px 350px; }
-  /*nosotros*/
   .itemsNosotros {
     padding: 0px; }
   .itemsNosotros li {
@@ -741,7 +690,6 @@ footer .copyright {
   .mercadoplatinum {
     width: 320px;
     height: 300px; }
-  /*nosotros*/
   .main_contacto {
     display: flex;
     flex-direction: row;
