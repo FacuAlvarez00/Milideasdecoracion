@@ -28,11 +28,11 @@ nav {
     border-bottom: 1px solid #59393E;
     border-top: 1px solid #59393E;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .nav-item {
-    margin: 0 50px;
+    margin: 0 70px;
 }
 
 
@@ -195,9 +195,7 @@ fieldset .letras input {
 }
 .boton_contacto:hover{
     background-color:#ffc107;
-
 }
-
 ::placeholder{
     font-size: 18px;
 
@@ -209,13 +207,8 @@ fieldset .letras input {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-    border: solid 1px white;
     width: 100%;
 }
-
-
 .grid-nosotros {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -225,59 +218,11 @@ fieldset .letras input {
     grid-auto-flow: dense;
 }
 
-.foto1 {
-    background-image: url(../assets/contacto/KRAU2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-}
-
-.foto2 {
-    background-image: url(../assets/contacto/Arbol-de-pared-01.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-}
-
 .foto3 {
-    background-image: url(../assets/contacto/15fd8fa6aa4685aa56776e09dad9adb1.jpg);
+    background-image: url(../assets/nosotros/15fd8fa6aa4685aa56776e09dad9adb1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.foto4 {
-    background-image: url(../assets/contacto/D_NQ_NP_734221-MLM41328183638_042020-O.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.foto5 {
-    background-image: url(../assets/contacto/fibrofacil_infantiles.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.foto6 {
-    background-image: url(../assets/contacto/lámpara.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.foto7 {
-    background-image: url(../assets/contacto/IMG-20220424-WA0029.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
 }
 .parrafonosotros {
     text-decoration: solid;
@@ -300,7 +245,6 @@ fieldset .letras input {
     justify-content: center;
     flex-direction: column;
 }
-
 
 
 .tituloNosotros {
@@ -364,33 +308,27 @@ fieldset .letras input {
     margin-top: 100px;
     padding-left: 200px;
 }
-
-
 .main_3mm{
-    display: flex;
     margin-top: 100px;
     justify-content: space-between;
+    
 }
-
 .texto_3mm{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 80px;
-}
-.parrafo1_3mm{
-    padding-right: 60px;
 }
 .h1_3mm{
     font-weight: bolder;
     color:#57393d;
-    font-size: 35px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 .h1_3mm_dos{
     font-weight: bolder;
     color:#57393d;
     font-size: 35px;
-    text-align: center;
 }
 .link_3mm{
     text-decoration: none;
@@ -401,18 +339,17 @@ fieldset .letras input {
 }
 .link_3mm:hover{
     color: #ffc107a5;
-
 }
-
 .carrusel_contenedor{
-    width: 3000px;
+    width: 1500px;
 }
-
+.w-100{
+    height: 846px;
+}
 .main_3mm_2do{
     display: flex;
     margin: 100px 0;
 }
-
 .velador_wrapper{
     position: relative;
     width: 1700px;
@@ -466,10 +403,11 @@ fieldset .letras input {
     align-items: center;
     border-bottom: solid 4px #59393E;
 }
-.card_3mm{
-    margin: 100px 0;
-    display: flex;
-    justify-content: space-between;
+.barra_divisora{
+    color: white;
+    text-align: center;
+    background-color: #59393E;
+    margin: 50px 0;
 }
 
 /* 5MM */
@@ -495,10 +433,6 @@ fieldset .letras input {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 350px 350px 350px;
-    grid-template-areas:
-                        "producto1 producto2 producto3"
-                        "producto4 producto 5 producto 6"
-                        "producto7 producto8 producto9";
     column-gap: 20px;
     row-gap: 60px;
     margin: 100px 0;
@@ -541,9 +475,6 @@ fieldset .letras input {
 }
 .producto_5mm:hover >.content.fade {
     opacity: 1;
-}
-.img_5mm{
-    height: 100%;
 }
 .contactanos_5mm{
     font-size: 24px;
@@ -647,9 +578,15 @@ footer .copyright {
         flex-direction: column;
         margin: 0;
     }
+    .h1_index{
+        padding-right: 45px;
+    }
+    .h1_index2{ 
+        padding-right: 45px;
+    }
     .imgindex1{
         margin: 50px 0;
-        width: 482px;
+        width: 410px;
         height: 250px;
     }
     .text_div{
@@ -658,7 +595,7 @@ footer .copyright {
         text-align: center;
     }
     .tresmm{
-        padding: 0;
+        padding: 0 10px;
     }
     .main_3mm{
         flex-direction: column;
@@ -669,12 +606,19 @@ footer .copyright {
         padding: 0 10px;
         align-items: center;
     }
+    .ss{
+        padding: 0 10px;
+        
+    }
     .parrafo1_3mm{
         padding: 0;
     }
     .carrusel_contenedor{
         width: 100%;
         padding: 0 10px;
+    }
+    .w-100{
+        height: 350px;
     }
     .main_3mm_2do{
         flex-direction: column;
@@ -684,52 +628,66 @@ footer .copyright {
         padding: 0;
         margin: 0;
     }
-    .velador_wrapper{
+    .ancor_3mm{
         position: relative;
+        top: 410px;
+    }
+    .velador_wrapper{
         width: 100%;
     }
-
-
-
-
-
-
-
-
-
-
-    .tituloNosotros {
-        display: flex;
+    .mm5_top{
         flex-direction: column;
-        font-size: 25px;
+        padding: 0;
+        margin-top: 35px;
     }
-
-    .parrafonosotros {
-        font-size: 16px;
+    .parrafo1_5mm{
+        font-size: 18px;
     }
-
-    ul li a {
+    .parrafo2_5mm{
         font-size: 15px;
-        margin: 0 10px;
     }
-
+    .grid_5mm { 
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px;
+        column-gap: 0px;   
+        margin: 100px 0;
+        align-items: center;
+    }
+    .contactanos5mm_wrapper{
+        text-align: center;
+    }
+    .contactanos_5mm{
+        font-size: 22px;
+    }
+    .producto_5mm{
+        position: relative;
+        box-shadow: 5px 8px #57393d;
+        width: 365px;
+        color: #fff;
+    }
+    .img_5mm{
+        height: 300px;
+    }
+    .content{
+        width: 366px !important;
+    }
     .main_contacto {
         display: flex;
         flex-direction: column;
-        margin: 300px 0px;
+        margin: 345px 0px;
         padding: 0 6px;
     }
-
     .formulario_contacto {
         width: 100%;
         padding: 50px;
+        border: 1px solid black;
     }
-
     .textoo {
         width: 100%;
         padding: 50px;
+        border: 1px solid black;
     }
-
     .h3_contacto{
         text-align: center;
     }
@@ -739,6 +697,28 @@ footer .copyright {
     .text--t3{
         text-align: center;
     }
+    .tituloNosotros {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+    .parrafonosotros {
+        font-size: 16px;
+    }
+    .parrafonosotros2{
+        margin: 0px;
+        padding: 30px;
+    }
+    .mercadolider_contenedor{
+        flex-direction: column;
+        padding: 0px;
+    }
+    ul li a {
+        font-size: 15px;
+        margin: 0 10px;
+    }
+
+
 
     .grid_3mm {
         display: flex;
@@ -772,10 +752,6 @@ footer .copyright {
         height: 25px;
         font-size: 15px;
         margin: 10px 0;
-    }
-    .grid_5mm {
-        display: flex;
-        flex-direction: column;
     }
     .img1 {
         height: 300px;
@@ -849,7 +825,7 @@ footer .copyright {
 
 @media (min-width: 480px) {
     .foto1 {
-        grid-column: span 2;
+        grid-column: span 2;    
         grid-row: span 2;
     }
 
@@ -859,5 +835,135 @@ footer .copyright {
 
     .foto5 {
         grid-column: span 2;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .navbar-nav{
+        font-size: 18px;
+    }
+    .nav-item{
+        margin: 0px 30px;
+    }
+    .iconoBarra{
+        left: 15px;
+    }
+    .hero{
+        margin: 0px;
+        flex-direction: column;
+    }
+    .text_div{
+        text-align: center;
+        padding: 0px;
+        margin: 80px 0;
+    }
+    .imgindex1{
+        width: 1000px;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    iframe{
+        width: 950px;
+    }
+
+
+    .tresmm{
+        padding: 0 10px;
+    }
+    .texto_3mm{
+        font-size: 18px;
+    }
+    .main_3mm_2do{
+        margin: 0px 0;
+    }
+    .parrafo1_3mm{
+        padding-right: 0px;
+    }
+    .parrafo_3mm{
+        font-size: 18px;
+        padding-right: 66px;
+    }
+    .lista_3mm{
+        font-size: 18px;
+    }
+    .ancor_3mm{
+        font-size: 18px;
+    }
+
+
+    .mm5_top{
+        margin: 50px 0;
+    }
+    .parrafo1_5mm{
+        font-size: 24px;
+    }
+    .parrafo2_5mm{
+        font-size: 18px;
+    }
+    .grid_5mm{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 350px 350px 350px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*nosotros*/
+    .itemsNosotros{
+        padding: 0px;
+    }
+    .itemsNosotros li{
+        margin: 0px;
+    }
+    .textt{
+        font-size: 25px;
+        width: 270px;
+        margin: 10px 30px;
+    }
+    .mercadolider_contenedor{
+        padding: 0px;
+    }
+    .mercadoplatinum{
+        width: 320px;
+        height: 300px;
+    }
+    /*nosotros*/
+
+    .main_contacto {
+        display: flex;
+        flex-direction: row;
+        margin: 100px 0px;
+        padding: 0 10px;
+    }
+    .formulario_contacto {
+        width: 100%;
+        padding: 50px;
+        border: 1px solid black;
+    }
+    .textoo {
+        width: 100%;
+        padding: 50px;
+        border: 1px solid black;
+    }
+    .h3_contacto{
+        text-align: center;
+    }
+    .text--t2{
+        text-align: center;
+    }
+    .text--t3{
+        text-align: center;
     }
 }
