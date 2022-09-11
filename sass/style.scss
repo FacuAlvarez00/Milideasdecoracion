@@ -51,6 +51,10 @@ nav {
 .hero{
     display: flex;
     margin: 120px 0;
+    padding: 0 100px;
+}
+.container_iframe{
+    padding: 0 215px;
 }
 .text_div{
     padding: 150px;
@@ -60,13 +64,21 @@ nav {
     font-weight: bolder;
     color: #59393E;
 }
+.barra_divisora_index{
+    color: white;
+    text-align: center;
+    background-color: #59393E;
+    margin: 100px 0;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 200px;
+}
 iframe{
     display: block;
     margin: auto;
+    width: 100%;
 }
-.container{
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
+
 @mixin textoo-size($h,$w) {
     height: $h;
     width: $w;
@@ -476,14 +488,14 @@ footer .copyright {
         margin: 0;
     }
     .h1_index{
-        padding-right: 45px;
+        padding-right: 0px;
     }
     .h1_index2{ 
-        padding-right: 45px;
+        padding-right: 0px;
     }
     .imgindex1{
         margin: 50px 0;
-        width: 410px;
+        width: 375px;
         height: 250px;
         align-self: center;
     }
@@ -624,6 +636,7 @@ footer .copyright {
     .parrafonosotros2{
         margin: 0px;
         text-align: center;
+        font-size: 18px;
     }
     .mercadolider_contenedor{
         flex-direction: column;
