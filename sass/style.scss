@@ -218,12 +218,13 @@ fieldset .letras input {
     grid-auto-flow: dense;
 }
 
-.foto3 {
+
+/* .foto3 {
     background-image: url(../assets/nosotros/15fd8fa6aa4685aa56776e09dad9adb1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 .parrafonosotros {
     text-decoration: solid;
     color: black;
@@ -588,6 +589,7 @@ footer .copyright {
         margin: 50px 0;
         width: 410px;
         height: 250px;
+        align-self: center;
     }
     .text_div{
         padding: 0 5px;
@@ -697,6 +699,31 @@ footer .copyright {
     .text--t3{
         text-align: center;
     }
+
+    .grid-nosotros{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+        gap: 3px;
+        padding: 0 10px;
+        margin-top: 100px;
+    }
+    .display{
+        display: none;
+    }
+
+    .img_nosotros{
+        width: 100%;
+
+    }
+
+    .foto-grid{
+        display: flex;
+        align-items:baseline;
+    }
+
+
+
     .tituloNosotros {
         display: flex;
         flex-direction: column;
