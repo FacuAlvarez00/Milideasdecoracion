@@ -78,7 +78,6 @@ iframe{
     margin: auto;
     width: 100%;
 }
-
 @mixin textoo-size($h,$w) {
     height: $h;
     width: $w;
@@ -318,9 +317,6 @@ fieldset .letras input {
     margin-top: 120px;
     text-align: center;
 }
-
-/* 5MM */
-
 .mm5_top {
     margin: 100px 0;
     display: flex;
@@ -392,11 +388,9 @@ fieldset .letras input {
     display: flex;
     justify-content: center;
 }
-/* 5MM */
-
-
-/* footer */
-
+.color{
+    color:#8b8994;
+}
 footer {
     border-top: 0.5px solid #b0ada8;
     margin-top: 75px;
