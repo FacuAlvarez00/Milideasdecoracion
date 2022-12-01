@@ -455,7 +455,8 @@ footer .copyright {
     flex-direction: column;
     margin: 0; }
   .h1_index {
-    padding-right: 0px; }
+    padding-right: 0px;
+    font-size: 45px; }
   .h1_index2 {
     padding-right: 0px; }
   .imgindex1 {
